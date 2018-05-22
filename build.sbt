@@ -19,5 +19,7 @@ lazy val example = project
 
 lazy val cli = project
   .settings(
-    libraryDependencies += "org.scalameta" %% "scalameta" % "3.7.4"
+    libraryDependencies += "org.scalameta" %% "scalameta" % "3.7.4",
+    libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5",
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
   )
